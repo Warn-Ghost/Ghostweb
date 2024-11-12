@@ -1,0 +1,97 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghost website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">Who am i ?</a></li>
+                <li><a href="#skills">skilles</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">contect</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h1>Hi im Ghost</h1>
+            <p> im web Desinger and devloper .</p>
+            <img src="images/0dd7dc63533752ab8ca5f33a5b58c6aa.jpg" alt="صورة شخصية" class="profile-img">
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h1>My skilles ::</h2>
+            <div class="skills">
+                <div class="skill">
+                    <h3>HTML/CSS</h3>
+                    <div class="skill-bar" style="width: 90%"></div>
+                </div>
+                <div class="skill">
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar" style="width: 80%"></div>
+                </div>
+                <div class="skill">
+                    <h3>C++</h3>
+                    <div class="skill-bar" style="width: 75%"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>My projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>first project </h3>
+                    <p>Web for chating</p>
+                </div>
+                <div class="project">
+                    <h3>Second project</h3>
+                    <p>Web for Help proggramars have codes all language </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>My contect</h2>
+            <form action="contact-form.php" method="POST">
+                <label for="name">الاسم:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">البريد الإلكتروني:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">الرسالة:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">إرسال</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 [Ghost]. جميع الحقوق محفوظة.</p>
+            <div class="social-links">
+                <a href="https://www.tiktok.com/@warn_ghost" target="_blank">Tiktok</a>
+                <a href="https://github.com" target="_blank">Instgram</a>
+                <a href="https://twitter.com" target="_blank">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
